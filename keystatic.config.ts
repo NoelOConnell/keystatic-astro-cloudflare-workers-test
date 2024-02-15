@@ -1,7 +1,7 @@
 import { config, fields, collection } from "@keystatic/core";
 
 export default config({
-  storage: import.meta.env.PROD
+  storage: true
     ? {
         kind: "github",
         repo: "NoelOConnell/keystatic-astro-cloudflare-workers-test",
