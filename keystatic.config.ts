@@ -4,7 +4,7 @@ export default config({
   storage: import.meta.env.PROD
     ? {
         kind: "github",
-        repo: "emmatown/keystatic-astro-cloudflare-workers-test",
+        repo: "NoelOConnell/keystatic-astro-cloudflare-workers-test",
       }
     : {
         kind: "local",
